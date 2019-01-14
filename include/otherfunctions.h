@@ -68,7 +68,7 @@ int readmime(){
    char line[80], mimiext[200][50];
    char split1[50], split2[30];
 
-   if (!(mimifd = fopen ("mime.types", "rt"))) {    printf("ERROR: Can't open file mime.types\n"); exit(0);}  
+   if (!(mimifd = fopen ("../mime.types", "rt"))) {    printf("ERROR: Can't open file mime.types\n"); exit(0);}
    while(fgets(line, 80, mimifd) != NULL) {
 	split(line,split1, split2); strcpy(extensions[r].ext,split2); strcpy(extensions[r].filetype,split1);
 	//printf("Filetype =%s, Exten=%s",extensions[r].filetype,extensions[r].ext);

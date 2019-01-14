@@ -24,7 +24,7 @@ include                  contains header files and helper functions
 
 www                      this is docroot
  
-.lab3-config             this is the configuration file
+.lab3-config             this is the configuration file, settings for docroot and port number 
 
 lab2.c                   this is the main.c file   
 ```
